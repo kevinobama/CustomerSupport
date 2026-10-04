@@ -1,0 +1,11 @@
+
+python-dotenv
+langchain-text-splitters
+langchain-community
+langchain-core
+langchain-cloudflare
+langchain-groq
+faiss-cpu
+pypdf
+requests
+
