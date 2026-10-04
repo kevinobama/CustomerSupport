@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+lib/
+lib64/
+parts/
+shelf/
+var/
+wheels/
+pip-wheel-metadata/
+share/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# CKEditor plugins
+.ckeditor/
+
+# Env
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Unit test / coverage reports
+htmlcov/
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+ coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+migrations/
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.spiders/
+
+# Sphinx documentation
+docs/_build/
+.venv
+env
+venv
+
+# PyCharm
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ollama
+ollama/
+
+# Matplotlib
+.mpl
