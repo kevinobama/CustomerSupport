@@ -21,7 +21,7 @@ os.environ["no_proxy"] = "localhost,127.0.0.1"
 ##################################
 # 0. Config / Paths
 ##################################
-pdf_path = "/home/kevin/kevindata/www/python/CustomerSupport/Docs/RAG-agent-and-SQL-agent.pdf"
+pdf_path = "../Docs/RAG-agent-and-SQL-agent.pdf"
 VECTORSTORE_DIR = "cloudflare_vectorstore_index"
 MANIFEST_PATH = os.path.join(VECTORSTORE_DIR, "manifest.json")
 

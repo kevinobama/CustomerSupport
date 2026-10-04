@@ -19,7 +19,7 @@ load_dotenv()
 ##################################
 # 1. Load PDF
 ##################################
-pdf_path = "/home/kevin/kevindata/www/python/CustomerSupport/Docs/RAG-agent-and-SQL-agent.pdf"
+pdf_path = "../Docs/RAG-agent-and-SQL-agent.pdf"
 loader = PyPDFLoader(pdf_path)
 docs = loader.load()
 print("Pages:", len(docs))

@@ -20,7 +20,7 @@ os.environ["no_proxy"] = "localhost,127.0.0.1"
 ##################################
 # 1. Load PDF
 ##################################
-pdf_path = "/home/kevin/kevindata/www/python/CustomerSupport/Docs/RAG-agent-and-SQL-agent.pdf"
+pdf_path = "../Docs/RAG-agent-and-SQL-agent.pdf"
 loader = PyPDFLoader(pdf_path)
 docs = loader.load()
 print("Pages:", len(docs))
